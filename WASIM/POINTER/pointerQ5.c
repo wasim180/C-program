@@ -6,12 +6,12 @@ int main(){
 
     y=&x;
 
-    printf("Enter a number: ");
+    printf("Enter a charcter: ");
     scanf("%c",&x);
 
-    printf("%c\n",*y);
+    printf(" before increment=%c\n",*y);
     *y=*y+1;
 
-    printf("%c",*y);
+    printf(" after increment=%c",*y);
 
 }
