@@ -10,10 +10,9 @@ int main()
     printf("Enter a number: ");
     scanf("%d",&a);
 
-    printf("%d\n",*p);
+    printf(" before increment=%d\n",*p);
     *p=*p+1;
 
-    printf("%d",*p);
-
+    printf(" after increment=%d",*p);
 
 }
