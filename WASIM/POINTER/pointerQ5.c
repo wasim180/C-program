@@ -9,9 +9,9 @@ int main(){
     printf("Enter a charcter: ");
     scanf("%c",&x);
 
-    printf(" before increment=%c\n",*y);
+    printf("%c\n",*y);
     *y=*y+1;
 
-    printf(" after increment=%c",*y);
+    printf("%c",*y);
 
 }
