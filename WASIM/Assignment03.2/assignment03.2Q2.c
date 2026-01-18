@@ -28,10 +28,10 @@ int main(){
    if(percentage>=60){
     printf("\n First division");
    }
-   else if(percentage>=50){
+   else if(percentage>=50 && percentage<60){
     printf("\n Second division ");
    }
-   else if(percentage>=40){
+   else if(percentage>=40 && percentage<50){
     printf("\n Third division");
    }
    else{
